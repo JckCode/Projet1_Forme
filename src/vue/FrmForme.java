@@ -176,7 +176,7 @@ public class FrmForme extends JFrame {
 		perimetreCarre.setHorizontalAlignment(SwingConstants.RIGHT);
 		contentPane.add(perimetreCarre);
 		
-		surfaceCarre = new JLabel("0 cm2");
+		surfaceCarre = new JLabel("0 cm 2");
 		surfaceCarre.setBounds(205, 104, 92, 14);
 		surfaceCarre.setHorizontalAlignment(SwingConstants.RIGHT);
 		contentPane.add(surfaceCarre);
