@@ -1,7 +1,5 @@
 package vue;
 
-import java.awt.EventQueue;
-
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
@@ -13,10 +11,6 @@ import javax.swing.JButton;
 import javax.swing.SwingConstants;
 import javax.swing.JScrollPane;
 import javax.swing.JList;
-import com.jgoodies.forms.layout.FormLayout;
-import com.jgoodies.forms.layout.ColumnSpec;
-import com.jgoodies.forms.layout.FormSpecs;
-import com.jgoodies.forms.layout.RowSpec;
 import controleur.Controle;
 import modele.Carre;
 import modele.Forme;
@@ -29,8 +23,6 @@ import java.awt.event.ActionEvent;
 public class FrmForme extends JFrame {
 
 	private JPanel contentPane;
-	private JLabel lbl2;
-	private JLabel lbl1;
 	private JTextField txtCote;
 	private JTextField txtRayon;
 	private Controle controle;

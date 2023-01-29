@@ -10,7 +10,7 @@ import vue.FrmForme;
 public class Controle {
 	//propriétés
 	private FrmForme frmForme;
-	private ArrayList lesFormes = new ArrayList<Forme>();
+	private ArrayList<Forme> lesFormes = new ArrayList<Forme>();
 	public static void main(String[] args) {
 		new Controle();
 	}
